@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<iastory>
+	<story version="0.1"> <!-- <–This isn't the version of the story. It's the version of the "interpreter" of IAStories -->
+		<title>Signal from Mars</title>
+		<lang>de_DE</lang>
+		<version>1.0</version>
+		<page id="1">
+<text>Page 1 TEXT
+Huuui!</text>
+			<options>2</options>
+			<option id="1" topage="2"> 1: Go to page 2</option>
+			<option id="2" topage="3"> 2: Go to page 3</option>
+		</page>
+		<page id="2">
+			<text>Page 2 TEXT</text>
+			<options>2</options>
+			<option id="1" topage="1"> 1: Go to page 1</option>
+			<option id="2" topage="3"> 2: Go to page 3</option>
+		</page>
+		<page id="3">
+			<text>Page 3 TEXT</text>
+			<options>2</options>
+			<option id="1" topage="1"> 1: Go to page 1</option>
+			<option id="2" topage="2"> 2: Go to page 2</option>
+		</page>
+	</story>
+</iastory>
