@@ -1,1 +1,1 @@
-# iastories-cli
+# Interactive Stories (CLI)
