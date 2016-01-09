@@ -2,7 +2,7 @@
 <iastory>
 	<story version="0.1"> <!-- <–This isn't the version of the story. It's the version of the "interpreter" of IAStories -->
 		<title>Signal from Mars</title>
-		<lang>de_DE</lang>
+		<lang>de</lang>
 		<version>1.0</version>
 		<page id="1">
 <text>Page 1 TEXT
@@ -19,9 +19,14 @@ Huuui!</text>
 		</page>
 		<page id="3">
 			<text>Page 3 TEXT</text>
-			<options>2</options>
+			<options>3</options>
 			<option id="1" topage="1"> 1: Go to page 1</option>
 			<option id="2" topage="2"> 2: Go to page 2</option>
+			<option id="3" topage="4"> 3: Go to the last page (4)</option>
+		</page>
+		<page id="4">
+			<text>This is page 4 (the last page)</text>
+			<options>0</options>
 		</page>
 	</story>
 </iastory>
