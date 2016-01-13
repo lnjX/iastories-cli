@@ -31,6 +31,8 @@ def Start(again):
         print ("okay... bye")
         exit()
 
+    DisplayPage("1")
+
 def DisplayPage(PageNum):
     StoryName = XMLFile.find("story/title").text
     
@@ -91,4 +93,3 @@ def AskNextPage(MaxID):
 
 Load()
 Start(False)
-DisplayPage("1")
