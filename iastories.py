@@ -5,10 +5,13 @@ import xml.etree.ElementTree
 
 NAME = "Interactive Stories CLI"
 AUTHOR = "LNJ"
-VERSION = "0.1.1"
+EMAIL = "lnj.git@gmail.com"
+VERSION = "0.1.3"
 YEAR = "2016"
 
-print( "{} v{} by {}, {}".format(NAME, VERSION, AUTHOR, YEAR) )
+print("{}, Version {} – A story game, where the player can decide what he wants to do.".format(NAME, VERSION))
+print("Copyright (C) {} {} <{}>".format(YEAR, AUTHOR, EMAIL))
+print("")
 
 def Load():
     # file name (in data folder)

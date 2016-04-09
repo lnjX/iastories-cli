@@ -2,30 +2,44 @@
 <iastory>
 	<story version="0.1"> <!-- <–This isn't the version of the story. It's the version of the "interpreter" of IAStories -->
 		<title>Signal from Mars</title>
-		<lang>de</lang>
+		<lang>English</lang>
 		<version>1.0</version>
 		<page id="1">
-<text>Page 1 TEXT
-Huuui!</text>
+			<text>On your return trip from studying Saturn's rings, you hear a distress signal that seems to be coming from the surface of Mars. It's strange because there hasn't been a colony there in years.</text>
 			<options>2</options>
-			<option id="1" topage="2"> 1: Go to page 2</option>
-			<option id="2" topage="3"> 2: Go to page 3</option>
+			<option id="1" topage="2"> 1: Stop and investigate</option>
+			<option id="2" topage="3"> 2: Continue home to Earth</option>
 		</page>
 		<page id="2">
-			<text>Page 2 TEXT</text>
+			<text>You deftly land your ship near where the distress signal originated. You didn't notice anything strange on your fly-by, but there is a cave in front of you. Behind you is an abandonedrover from the early 21st century.</text>
 			<options>2</options>
-			<option id="1" topage="1"> 1: Go to page 1</option>
-			<option id="2" topage="3"> 2: Go to page 3</option>
+			<option id="1" topage="4"> 1: Explore the cave</option>
+			<option id="2" topage="5"> 2: Explore the rover</option>
 		</page>
 		<page id="3">
-			<text>Page 3 TEXT</text>
-			<options>3</options>
-			<option id="1" topage="1"> 1: Go to page 1</option>
-			<option id="2" topage="2"> 2: Go to page 2</option>
-			<option id="3" topage="4"> 3: Go to the last page (4)</option>
+			<text>You continue your course to Earth. Two days later, you receive a transmission from HQ saying that they have detected some sort of anomaly on the surface of Mars near an abadoned rover. They ask you to investigate, but ultimately the decision is yours because your mission has already run mush longer than planned and supplies are low.</text>
+			<options>2</options>
+			<option id="1" topage="5"> 1: Head back to mars to investigate</option>
+			<option id="2" topage="7"> 2: Continue home to Earth</option>
 		</page>
 		<page id="4">
-			<text>This is page 4 (the last page)</text>
+			<text>Your EVA suit is equipped with a headlamp, which you use to navigate the cave. After searching for a while your oxygen levels are starting to get pretty low. You know you should go refill your tank, but there's very faint light up ahead.</text>
+			<options>2</options>
+			<option id="1" topage="5"> 1: Refill at ship and explore the rover</option>
+			<option id="2" topage="6"> 2: Continue towards the faint light</option>
+		</page>
+		<page id="5">
+			<text>The rover is covered in dust and most of the solar panels are broken. But you are quite surprised to see the on-board system booted up and runnning. In fact, there is a message on the screen: "Come to 28.543436, -81.369031." Those coordinates aren't far, but you don't know if your oxygen will last there and back.</text>
+			<options>2</options>
+			<option id="1" topage="6"> 1: Explore the coordinates</option>
+			<option id="2" topage="3"> 2: Return to Earth</option>
+		</page>
+		<page id="6">
+			<text>After a long walk slightly uphill, you end up at the top of a small crater. You look around, and are overjoyed to see your favorite android, - S1124. It had been lost on a previous misson to Mars! You take it back to your ship and fly back to Earth</text>
+			<options>0</options>
+		</page>
+		<page id="7">
+			<text>You arrive home on Earth. While your misson was a success, you forever wonder what was sending that signal. Perhaps a future misson will be able to investigate...</text>
 			<options>0</options>
 		</page>
 	</story>
